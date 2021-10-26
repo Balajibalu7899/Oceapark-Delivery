@@ -337,9 +337,9 @@ Widget statustab() {
         ),
       ),
       ListView.builder(
-          // shrinkWrap: true,
-          // physics: NeverScrollableScrollPhysics(),
-          // itemCount: 5,
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          itemCount: 5,
           itemBuilder: (BuildContext context, int index) {
         return Container(
           height: 70,
